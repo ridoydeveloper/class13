@@ -1,0 +1,67 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.clock img {
+  height: 394px;
+  width: 312px;
+  display: flex;
+  text-align: center;
+  margin-left: 333px;
+  margin-top: 0px;
+}
+
+.digital-clock {
+  display: flex;
+  position: relative;
+  position: absolute;
+  top: 168px;
+  color: rgb(57, 211, 18);
+  left: 424px;
+  width: 40px;
+  font-size: 38px;
+}
+.digital-clock .h {
+  width: 22px;
+  display: block;
+  margin-top: -24px;
+  margin-right: 15px;
+}
+.digital-clock .m {
+  margin-top: -26px;
+  margin-left: 18px;
+}
+.digital-clock .s {
+  margin-top: 34px;
+    margin-left: -99px;
+}
+.ampm {
+  position: absolute;
+  bottom: 14%;
+  right: -158%;
+  font-size: 17px;
+  border: 2px solid;
+  border-radius: 47%;
+  padding: 2px;
+  background-color: #000000;
+  border-color: #1cdf9c;
+}
+
+
+/* Counter with Loader   */
+.loader{
+
+  width: 100%;
+  height: 30px;
+  background-color: red;
+  border-radius: 100px;
+  margin-top: 20px;
+}
+
+
+
+input#add {
+
+  margin-left: 10px;
+}
