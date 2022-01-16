@@ -65,3 +65,34 @@ input#add {
 
   margin-left: 10px;
 }
+
+
+
+
+
+
+
+.form-group {
+  margin-bottom: 8px;
+}
+.form-grou {
+  margin-bottom: 10px;
+
+}
+
+.form-groub {
+  display: inline-grid;
+  margin: 28px;
+}
+
+.alert-danger {
+
+  margin-bottom: initial;
+}
+
+tbody, td, tfoot, th, thead, tr {
+  border-color: inherit;
+  border-style: solid;
+  border-width: 2px;
+  padding-top: 18px;
+}

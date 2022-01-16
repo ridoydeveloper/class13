@@ -117,3 +117,45 @@ add.addEventListener('click', function(){
 
    
 });
+
+
+
+// result
+
+
+const check_button = document.querySelector('#resultcheck');
+const name = document.querySelector('#name');
+const roll = document.querySelector('#roll');
+const clas = document.querySelector('#clas');
+const Gender = document.querySelector('#Gender');
+
+
+const bangla = document.querySelector('#bangla');
+const eng = document.querySelector('#eng');
+const math = document.querySelector('#math');
+const computer = document.querySelector('#computer');
+
+
+const result = document.querySelector('#result');
+
+
+
+check_button.addEventListener('click', () => {
+
+    if(name.value == '' || roll.value == '' || clas.value == '' || bangla.value == '' || eng.value == '' || math.value == '' || computer.value == ''){
+
+        result.innerHTML = `<p class =" alert alert-danger"> All fields are requit</p>`
+
+    }else{
+
+   result.innerHTML = resultcal(name.value,roll.value,clas.value, Gender.value,bangla.value,eng.value,math.value,computer.value,);
+
+   name.value = '';
+   roll.value = '';
+   clas.value = '';
+   bangla.value = '';
+   eng.value = '';
+   computer.value = '';
+ }
+
+});
